@@ -259,7 +259,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
 .pv select option { color:#121325; }
 
 /* planos */
-.pv .planos { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; align-items:stretch; }
+.pv .planos { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; align-items:stretch; }
 .pv .plano { position:relative; padding:28px 24px; border-radius:20px; background:var(--card); border:1px solid var(--linha); display:flex; flex-direction:column; cursor:pointer; transition:transform .2s, border-color .2s; }
 .pv .plano:hover { transform:translateY(-3px); }
 .pv .plano.sel { border:2px solid var(--rosa); background:rgba(102,96,180,.2); }
@@ -672,15 +672,15 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
       <p class="col-t">Com a assistente dgenny</p>
       <div class="card unit rv">
         <div class="unit-top">
-          <div><span class="dg-etiqueta">Com a dgenny, no plano escolhido</span><b data-o="a_convA">R$ 12,16</b><p>por negociação, com busca de fornecedores, follow-up, negociação e mapa incluídos</p></div>
-          <div class="unit-econ"><b class="vezes" data-o="a_vezes">2,2x menos</b><b data-o="a_econ">-55%</b><span>que a mesma negociação feita por uma pessoa</span></div>
+          <div><span class="dg-etiqueta">Com a dgenny, no plano escolhido</span><b data-o="a_convA">R$ 10,74</b><p>por negociação, com busca de fornecedores, follow-up, negociação e mapa incluídos</p></div>
+          <div class="unit-econ"><b class="vezes" data-o="a_vezes">2,5x menos</b><b data-o="a_econ">-60%</b><span>que a mesma negociação feita por uma pessoa</span></div>
         </div>
         <div class="cbar"><span>Pessoa</span><div class="ctrk"><div class="cfill h" style="width:100%"></div></div><b data-o="a_convH2">R$ 27,00</b></div>
-        <div class="cbar"><span>dgenny</span><div class="ctrk"><div class="cfill a" data-cbar="a" style="width:45%"></div></div><b data-o="a_convA2">R$ 12,16</b></div>
+        <div class="cbar"><span>dgenny</span><div class="ctrk"><div class="cfill a" data-cbar="a" style="width:39.8%"></div></div><b data-o="a_convA2">R$ 10,74</b></div>
       </div>
       <div class="volume rv">
-        <div class="passo"><span class="n">5</span><p>O pacote do plano escolhido<small data-o="a_pacTxt">para 1 assistente trabalhando 24 horas por dia</small></p><span class="v" data-o="a_pac">250 negociações</span></div>
-        <div class="passo"><span class="n">6</span><p>Pessoas para fazer o mesmo volume<small data-o="a_pessoasTxt">250 negociações por mês ÷ ~187 por pessoa</small></p><span class="v v-pess"><b data-o="a_pessoasCusto">R$ 7 mil/mês</b><em data-o="a_pessoasQtd">1,3 pessoas</em></span></div>
+        <div class="passo"><span class="n">5</span><p>O pacote do plano escolhido<small data-o="a_pacTxt">repartido entre 3 assistentes trabalhando em paralelo, 24 horas por dia</small></p><span class="v" data-o="a_pac">500 negociações</span></div>
+        <div class="passo"><span class="n">6</span><p>Pessoas para fazer o mesmo volume<small data-o="a_pessoasTxt">500 negociações por mês ÷ ~187 por pessoa</small></p><span class="v v-pess"><b data-o="a_pessoasCusto">R$ 13 mil/mês</b><em data-o="a_pessoasQtd">2,7 pessoas</em></span></div>
       </div>
     </div>
   </div>
@@ -726,34 +726,34 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
     <div class="formula">
       <div class="card lado rv">
         <h3>O que volta por mês</h3>
-        <div class="linha"><span>Horas de comprador liberadas<small data-o="r_horasTxt" style="display:block;font-size:12.5px;line-height:1.45;color:var(--txt);margin-top:3px;max-width:44ch">80 cotações × (6,0 h hoje − 0,5 h com a assistente), na parte que o plano cobre (45%). É o tempo que o comprador deixa de gastar montando cotação e passa a usar para negociar.</small></span><b data-o="r_horas">196 h</b></div>
-        <div class="linha"><span>Valor dessas horas</span><b data-o="r_tempo">R$ 6.188</b></div>
-        <div class="linha"><span data-o="r_dinTxt">Saving de 3% sobre R$ 500 mil cotados, na parte coberta</span><b data-o="r_din">R$ 6.696</b></div>
-        <div class="linha tot"><span>Retorno mensal</span><b data-o="r_ret">R$ 12.884</b></div>
+        <div class="linha"><span>Horas de comprador liberadas<small data-o="r_horasTxt" style="display:block;font-size:12.5px;line-height:1.45;color:var(--txt);margin-top:3px;max-width:44ch">80 cotações × (6,0 h hoje − 0,5 h com a assistente), na parte que o plano cobre (89%). É o tempo que o comprador deixa de gastar montando cotação e passa a usar para negociar.</small></span><b data-o="r_horas">393 h</b></div>
+        <div class="linha"><span>Valor dessas horas</span><b data-o="r_tempo">R$ 12.375</b></div>
+        <div class="linha"><span data-o="r_dinTxt">Saving de 3% sobre R$ 500 mil cotados, na parte coberta</span><b data-o="r_din">R$ 13.393</b></div>
+        <div class="linha tot"><span>Retorno mensal</span><b data-o="r_ret">R$ 25.768</b></div>
       </div>
       <div class="sinal rv">&gt;</div>
       <div class="card lado rv">
         <h3>O que a TDS investe</h3>
-        <div class="linha"><span data-o="r_planoTxt">Mensalidade, plano Essencial com 1 assistente</span><b data-o="r_mens">R$ 3.040</b></div>
+        <div class="linha"><span data-o="r_planoTxt">Mensalidade, plano Equipe com 3 assistentes</span><b data-o="r_mens">R$ 5.370</b></div>
         <div class="linha"><span>Implantação, uma vez</span><b data-o="r_impl">R$ 5.800</b></div>
         <div class="linha"><span>Horas do time no treinamento, uma vez</span><b data-o="r_onb">R$ 473</b></div>
-        <div class="linha tot"><span>No primeiro mês</span><b data-o="r_mud">R$ 9.313</b></div>
+        <div class="linha tot"><span>No primeiro mês</span><b data-o="r_mud">R$ 11.643</b></div>
       </div>
     </div>
-    <p class="nota" data-o="r_cob" style="margin-top:10px">80 cotações com 7 fornecedores pedem cerca de 560 negociações por mês. O plano escolhido cobre 250, cerca de 45% disso. O retorno considera só a parte coberta.</p>
+    <p class="nota" data-o="r_cob" style="margin-top:10px">80 cotações com 7 fornecedores pedem cerca de 560 negociações por mês. O plano escolhido cobre 500, cerca de 89% disso. O retorno considera só a parte coberta.</p>
     <p class="nota" data-o="r_exp" style="margin-top:4px"></p>
     <div class="res res4">
-      <div class="kpi rv"><b data-o="r_horas2">196 h</b><span data-o="r_pessTxt">por mês devolvidas ao time, o tempo de 1,2 pessoas em jornada integral</span></div>
-      <div class="kpi rv"><b data-o="r_x">4,2x</b><span>retorno mensal para cada real da mensalidade</span></div>
-      <div class="kpi rv"><b data-o="r_pb">~19 dias</b><span>para a implantação se pagar</span></div>
-      <div class="kpi rv"><b data-o="r_12">R$ 111 mil</b><span data-o="r_12txt">de ganho líquido em 12 meses: R$ 154 mil de retorno no ano, menos R$ 43 mil investidos (mensalidades, implantação e horas de treinamento)</span></div>
+      <div class="kpi rv"><b data-o="r_horas2">393 h</b><span data-o="r_pessTxt">por mês devolvidas ao time, o tempo de 2,5 pessoas em jornada integral</span></div>
+      <div class="kpi rv"><b data-o="r_x">4,8x</b><span>retorno mensal para cada real da mensalidade</span></div>
+      <div class="kpi rv"><b data-o="r_pb">~9 dias</b><span>para a implantação se pagar</span></div>
+      <div class="kpi rv"><b data-o="r_12">R$ 239 mil</b><span data-o="r_12txt">de ganho líquido em 12 meses: R$ 310 mil de retorno no ano, menos R$ 71 mil investidos (mensalidades, implantação e horas de treinamento)</span></div>
     </div>
     <table class="cen rv" aria-label="Cenários de retorno">
       <thead><tr><th>Cenário</th><th>Saving sobre o volume cotado</th><th>Horas liberadas por mês</th><th>Retorno mensal</th><th>Retorno por real</th></tr></thead>
       <tbody>
-        <tr class="real"><td><b>Conservador</b> · base desta proposta</td><td>3%</td><td data-o="r_horas3">196 h</td><td data-o="s1r">R$ 12.884</td><td><b data-o="s1x">4,2x</b></td></tr>
-        <tr><td><b>Realista</b> · média da carteira</td><td>5%</td><td data-o="r_horas3">196 h</td><td data-o="s2r">R$ 17.348</td><td><b data-o="s2x">5,7x</b></td></tr>
-        <tr><td><b>Projetado</b></td><td>8%</td><td data-o="r_horas3">196 h</td><td data-o="s3r">R$ 24.045</td><td><b data-o="s3x">7,9x</b></td></tr>
+        <tr class="real"><td><b>Conservador</b> · base desta proposta</td><td>3%</td><td data-o="r_horas3">393 h</td><td data-o="s1r">R$ 25.768</td><td><b data-o="s1x">4,8x</b></td></tr>
+        <tr><td><b>Realista</b> · média da carteira</td><td>5%</td><td data-o="r_horas3">393 h</td><td data-o="s2r">R$ 34.696</td><td><b data-o="s2x">6,5x</b></td></tr>
+        <tr><td><b>Projetado</b></td><td>8%</td><td data-o="r_horas3">393 h</td><td data-o="s3r">R$ 48.089</td><td><b data-o="s3x">9,0x</b></td></tr>
       </tbody>
     </table>
     <p class="nota" style="margin-top:14px">Estimativa, não garantia. A conta usa os números da reunião: 80 cotações por mês com 7 fornecedores e 6 horas cada, e R$ 500.000 cotados por mês. O retorno conta só o que o pacote do plano cobre. As horas usam o custo de um comprador da seção 4, com 160 horas por mês.</p>
@@ -779,20 +779,45 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
 <section class="sec dg-secao dg-fundo-luz" id="investimento">
   <svg fill="currentColor" aria-hidden="true" class="dg-assinatura" viewBox="0 0 158 159"  xmlns="http://www.w3.org/2000/svg"><path d="M140.81 62.1455L95.1728 74.3774C90.0026 75.7646 85.291 78.4815 81.5079 82.2646C77.7248 86.0476 75.0079 90.7593 73.6208 95.9295L61.3889 141.567L77.1631 145.797L89.0626 101.386L123.729 136.053L135.285 124.497L100.618 89.8307L145.029 77.9312L140.799 62.157L140.81 62.1455Z" fill="currentColor"/><path d="M96.6517 17.2302L84.4198 62.8677C83.0326 68.0379 80.3157 72.7496 76.5326 76.5326C72.7496 80.3157 68.0379 83.0326 62.8677 84.4198L17.2302 96.6517L13 80.8774L57.4109 68.978L22.7557 34.2998L34.3113 22.7443L68.978 57.4109L80.866 13L96.6402 17.2302H96.6517Z" fill="currentColor"/></svg>
   <div class="wrap">
-    <div class="cue"><b>Investimento: quatro planos (1, 2, 3 e até 20 assistentes)</b>
+    <div class="cue"><b>Investimento: dois planos com 3 assistentes</b>
       <ul><li>Antes de mostrar os planos, feche o sinal que falta: "Vocês já têm uma faixa de investimento em mente?"</li>
-      <li>Q</li>
-      <li>u</li>
-      <li>a</li>
-      <li>t</li>
-      <li>r</li>
+      <li>D</li>
       <li>o</li>
+      <li>i</li>
+      <li>s</li>
       <li> </li>
       <li>p</li>
       <li>l</li>
       <li>a</li>
       <li>n</li>
       <li>o</li>
+      <li>s</li>
+      <li>,</li>
+      <li> </li>
+      <li>o</li>
+      <li>s</li>
+      <li> </li>
+      <li>d</li>
+      <li>o</li>
+      <li>i</li>
+      <li>s</li>
+      <li> </li>
+      <li>c</li>
+      <li>o</li>
+      <li>m</li>
+      <li> </li>
+      <li>3</li>
+      <li> </li>
+      <li>a</li>
+      <li>s</li>
+      <li>s</li>
+      <li>i</li>
+      <li>s</li>
+      <li>t</li>
+      <li>e</li>
+      <li>n</li>
+      <li>t</li>
+      <li>e</li>
       <li>s</li>
       <li>,</li>
       <li> </li>
@@ -836,22 +861,6 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
       <li>O</li>
       <li> </li>
       <li>d</li>
-      <li>e</li>
-      <li> </li>
-      <li>3</li>
-      <li> </li>
-      <li>a</li>
-      <li>s</li>
-      <li>s</li>
-      <li>i</li>
-      <li>s</li>
-      <li>t</li>
-      <li>e</li>
-      <li>n</li>
-      <li>t</li>
-      <li>e</li>
-      <li>s</li>
-      <li> </li>
       <li>e</li>
       <li> </li>
       <li>5</li>
@@ -1093,41 +1102,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
       <li>s</li>
       <li>.</li>
       <li> </li>
-      <li>S</li>
-      <li>e</li>
-      <li> </li>
-      <li>o</li>
-      <li> </li>
-      <li>p</li>
-      <li>r</li>
-      <li>e</li>
-      <li>ç</li>
-      <li>o</li>
-      <li> </li>
-      <li>p</li>
-      <li>e</li>
-      <li>s</li>
-      <li>a</li>
-      <li>r</li>
-      <li>,</li>
-      <li> </li>
-      <li>d</li>
-      <li>e</li>
-      <li>s</li>
-      <li>ç</li>
-      <li>a</li>
-      <li> </li>
-      <li>d</li>
-      <li>e</li>
-      <li> </li>
-      <li>p</li>
-      <li>l</li>
-      <li>a</li>
-      <li>n</li>
-      <li>o</li>
-      <li>;</li>
-      <li> </li>
-      <li>n</li>
+      <li>N</li>
       <li>ã</li>
       <li>o</li>
       <li> </li>
@@ -1162,35 +1137,23 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
       <li>Apresente os três caminhos sem indicar um: a escolha é da TDS.</li>
       <li>"Qual destas conversa com o plano de vocês para os próximos 12 meses?" Clique na escolhida: a conta do retorno, logo acima, passa a usar esse plano.</li>
       <li>Se o preço pesar, reduza o pacote. Não dê desconto no preço por negociação. Se precisar ceder, ceda na implantação e sempre em troca de algo.</li></ul></div>
-    <p class="ponte rv">Com pessoas, você gastaria <b data-o="a_pessoasCusto">R$ 7 mil/mês</b>. E com a dgenny:</p>
+    <p class="ponte rv">Com pessoas, você gastaria <b data-o="a_pessoasCusto">R$ 13 mil/mês</b>. E com a dgenny:</p>
     <div class="num"><b>6</b> Investimento</div>
-    <div class="planos">
+    <div class="planos dois">
       <div class="plano sel rv" data-plano="1" tabindex="0" role="button">
-        <h3>Uma compradora com assistente</h3><p class="para">Uma assistente e 3.000 negociações no ano (250 por mês), para começar pela compradora com mais cotações.</p>
-        <div class="asst"><i style="background:none;color:var(--txt);width:auto;font:700 12px var(--t);font-style:normal">1 assistente · 1 número</i></div>
-        <div class="conv">250 negociações/mês<small>3.000 no ano, saldo livre · 1 assistente</small></div>
-        <div class="preco"><b>R$ 3.040</b> <span>/mês</span><br><span>R$ 12,16 por negociação · R$ 3.000 do pacote + 1 número de R$ 40</span></div>
-      </div>
-      <div class="plano rv" data-plano="2" tabindex="0" role="button">
-        <h3>Duas frentes em paralelo</h3><p class="para">Duas assistentes dividindo 3.000 negociações no ano (250 por mês), para duas compradoras cotarem ao mesmo tempo.</p>
-        <div class="asst"><i style="background:none;color:var(--txt);width:auto;font:700 12px var(--t);font-style:normal">2 assistentes · 2 números</i></div>
-        <div class="conv">250 negociações/mês<small>3.000 no ano, saldo livre · 2 assistentes</small></div>
-        <div class="preco"><b>R$ 3.480</b> <span>/mês</span><br><span>R$ 13,92 por negociação · R$ 3.000 do pacote + 1 assistente de R$ 400 + 2 números de R$ 40</span></div>
-      </div>
-      <div class="plano rv" data-plano="3" tabindex="0" role="button">
         <h3>O time inteiro</h3><p class="para">Três assistentes, uma por compradora, e 6.000 negociações no ano (500 por mês), perto da operação estimada de hoje.</p>
         <div class="asst"><i style="background:none;color:var(--txt);width:auto;font:700 12px var(--t);font-style:normal">3 assistentes · 3 números</i></div>
         <div class="conv">500 negociações/mês<small>6.000 no ano, saldo livre · 3 assistentes</small></div>
         <div class="preco"><b>R$ 5.370</b> <span>/mês</span><br><span>R$ 10,74 por negociação · R$ 5.250 do pacote + 3 números de R$ 40</span></div>
       </div>
-      <div class="plano rv" data-plano="4" tabindex="0" role="button">
-        <h3>Toda a operação, com folga</h3><p class="para">Até 20 assistentes e 24.000 negociações no ano (2.000 por mês), para cotar todas as obras com mais fornecedores por item.</p>
-        <div class="asst"><i style="background:none;color:var(--txt);width:auto;font:700 12px var(--t);font-style:normal">20 assistentes inclusas · números inclusos</i></div>
-        <div class="conv">2.000 negociações/mês<small>24.000 no ano, saldo livre · até 20 assistentes</small></div>
-        <div class="preco"><b>R$ 9.897</b> <span>/mês</span><br><span>R$ 4,95 por negociação · até 20 assistentes inclusas, números inclusos</span></div>
+      <div class="plano rv" data-plano="2" tabindex="0" role="button">
+        <h3>Toda a operação, com folga</h3><p class="para">Três assistentes, uma por compradora, e 24.000 negociações no ano (2.000 por mês), para cotar todas as obras com mais fornecedores por item.</p>
+        <div class="asst"><i style="background:none;color:var(--txt);width:auto;font:700 12px var(--t);font-style:normal">3 assistentes · números inclusos</i></div>
+        <div class="conv">2.000 negociações/mês<small>24.000 no ano, saldo livre · 3 assistentes</small></div>
+        <div class="preco"><b>R$ 9.897</b> <span>/mês</span><br><span>R$ 4,95 por negociação · números inclusos</span></div>
       </div>
     </div>
-    <div class="card paral semsurpresa rv"><span class="dg-icone"><svg aria-hidden="true" width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,1.5A10.5,10.5,0,1,0,22.5,12,10.51211,10.51211,0,0,0,12,1.5Zm0,1a9.45065,9.45065,0,0,1,6.344,2.449L15.51691,7.77606a5.48445,5.48445,0,0,0-7.03382,0L5.656,4.949A9.45065,9.45065,0,0,1,12,2.5ZM16.5,12A4.5,4.5,0,1,1,12,7.5,4.50491,4.50491,0,0,1,16.5,12Zm-14,0A9.45065,9.45065,0,0,1,4.949,5.656L7.77606,8.48309a5.48445,5.48445,0,0,0,0,7.03382L4.949,18.344A9.45065,9.45065,0,0,1,2.5,12ZM12,21.5a9.45065,9.45065,0,0,1-6.344-2.449l2.82708-2.82709a5.48445,5.48445,0,0,0,7.03382,0L18.344,19.051A9.45065,9.45065,0,0,1,12,21.5Zm7.051-3.156-2.82709-2.82708a5.48445,5.48445,0,0,0,0-7.03382L19.051,5.656a9.44145,9.44145,0,0,1,0,12.688Z"/></svg></span><div><h3 style="font-size:17px;margin-bottom:4px">Uma assistente para cada comprador</h3><p style="color:var(--txt);margin:0">Cada assistente tem o próprio número de WhatsApp e trabalha ao lado de uma compradora, em qualquer obra. Os quatro planos têm as mesmas funcionalidades. O que muda é quantas assistentes entram e o volume de negociações:</p>
+    <div class="card paral semsurpresa rv"><span class="dg-icone"><svg aria-hidden="true" width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,1.5A10.5,10.5,0,1,0,22.5,12,10.51211,10.51211,0,0,0,12,1.5Zm0,1a9.45065,9.45065,0,0,1,6.344,2.449L15.51691,7.77606a5.48445,5.48445,0,0,0-7.03382,0L5.656,4.949A9.45065,9.45065,0,0,1,12,2.5ZM16.5,12A4.5,4.5,0,1,1,12,7.5,4.50491,4.50491,0,0,1,16.5,12Zm-14,0A9.45065,9.45065,0,0,1,4.949,5.656L7.77606,8.48309a5.48445,5.48445,0,0,0,0,7.03382L4.949,18.344A9.45065,9.45065,0,0,1,2.5,12ZM12,21.5a9.45065,9.45065,0,0,1-6.344-2.449l2.82708-2.82709a5.48445,5.48445,0,0,0,7.03382,0L18.344,19.051A9.45065,9.45065,0,0,1,12,21.5Zm7.051-3.156-2.82709-2.82708a5.48445,5.48445,0,0,0,0-7.03382L19.051,5.656a9.44145,9.44145,0,0,1,0,12.688Z"/></svg></span><div><h3 style="font-size:17px;margin-bottom:4px">Uma assistente para cada comprador</h3><p style="color:var(--txt);margin:0">Cada compradora tem a sua assistente, com o próprio número de WhatsApp, em qualquer obra. Os dois planos têm as mesmas funcionalidades e as mesmas 3 assistentes. O que muda é o volume de negociações:</p>
       <ul><li><b>Número separado:</b> o fornecedor sabe quando fala com a assistente e quando fala com o comprador, e a cotação não se mistura com o resto do dia.</li>
       <li><b>Saldo da empresa:</b> qualquer assistente consome do mesmo pacote, e o saldo pode ser usado conforme a demanda de cada mês.</li></ul></div></div>
     <p class="nota">Valores do contrato anual. O saldo de negociações é do contrato inteiro e pode ser usado conforme a demanda de cada mês. Novas assistentes podem entrar a qualquer momento, até o limite do plano. Sem custo escondido: as mensagens da Meta são por conta da dgenny, e a integração com o Server Obras não tem custo adicional da dgenny.</p>
@@ -1202,7 +1165,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
         <div class="setup">
           <span>Setup inicial · valor único</span>
           <b data-o="p_impl">R$ 5.800</b>
-          <small>Pago uma vez, o mesmo em qualquer um dos três planos. Inclui todo o setup e o treinamento de até 3 pessoas para usar a dgenny.</small>
+          <small>Pago uma vez, o mesmo em qualquer um dos dois planos. Inclui todo o setup e o treinamento de até 3 pessoas para usar a dgenny.</small>
         </div>
       </div>
       <ul>
@@ -1235,7 +1198,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
           <li>Follow-ups, dúvidas e negociação de preço, frete e prazo dentro dessa conversa: incluídos.</li>
           <li>Buscar fornecedores, montar o mapa e salvar a cotação: incluídos.</li>
         </ol>
-        <div class="ex"><b>Exemplo:</b> uma cotação enviada a 7 fornecedores consome 7 negociações. O plano escolhido cobre <b data-o="i_cot">cerca de 36 cotações por mês</b> nesse formato.</div>
+        <div class="ex"><b>Exemplo:</b> uma cotação enviada a 7 fornecedores consome 7 negociações. O plano escolhido cobre <b data-o="i_cot">cerca de 71 cotações por mês</b> nesse formato.</div>
         <p class="nota">O saldo é do contrato inteiro. Se acabar antes do fim, compram-se blocos de 50 negociações ao preço do plano, sem mudar de plano. Reabrir a mesma negociação depois de 24 horas não conta como nova. O saldo não usado expira no fim do contrato.</p>
       </div>
       <div class="inc">
@@ -1303,7 +1266,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
   try { if (new URLSearchParams(location.search).has('roteiro') || /roteiro/.test(location.hash)) root.classList.add('roteiro'); window.addEventListener('hashchange', function(){ root.classList.toggle('roteiro', /roteiro/.test(location.hash)); }); } catch(e) {}
 
   // PLANOS: n assistentes, nome, neg pacote mensal, preco mensalidade, impl implantação (valores de precos.py opcoes e da ficha)
-  var PLANOS = { 1:{n:1, nome:'plano Essencial com 1 assistente', neg:250, preco:3040.0, impl:5800}, 2:{n:2, nome:'plano Essencial com 2 assistentes', neg:250, preco:3480.0, impl:5800}, 3:{n:3, nome:'plano Equipe com 3 assistentes', neg:500, preco:5370.0, impl:5800}, 4:{n:3, nome:'plano Avançado com 3 assistentes', neg:2000, preco:9897, impl:5800} };
+  var PLANOS = { 1:{n:3, nome:'plano Equipe com 3 assistentes', neg:500, preco:5370.0, impl:5800}, 2:{n:3, nome:'plano Avançado com 3 assistentes', neg:2000, preco:9897, impl:5800} };
   var st = { plano:1 };
   var HORAS_MES = 160, H_TREINO = 5;
 
